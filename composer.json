@@ -16,7 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
-        "drupal/asset_injector": "^2.16",
+        "drupal/asset_injector": "^2.17",
         "drupal/bootstrap": "^3.28",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
@@ -24,6 +24,8 @@
         "drupal/devel": "^5.1",
         "drupal/devel_php": "^1.5",
         "drupal/edux": "^10.1",
+        "drupal/menu_export": "^1.4",
+        "drupal/menu_migration": "^2.0@alpha",
         "drupal/pathauto": "^1.11",
         "drupal/quickedit": "^1.0",
         "drupal/smtp": "^1.2",

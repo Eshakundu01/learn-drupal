@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "785c3054243ccb505f2672806983c568",
+    "content-hash": "6f5255724abc202276bd078ed26f3ec0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1371,17 +1371,17 @@
         },
         {
             "name": "drupal/asset_injector",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/asset_injector.git",
-                "reference": "8.x-2.16"
+                "reference": "8.x-2.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/asset_injector-8.x-2.16.zip",
-                "reference": "8.x-2.16",
-                "shasum": "34965a20c346c2fbcf14b690166b070070837a13"
+                "url": "https://ftp.drupal.org/files/projects/asset_injector-8.x-2.17.zip",
+                "reference": "8.x-2.17",
+                "shasum": "e273ba3c8736a25496caf9e7a7b0e47e6052594c"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10.0"
@@ -1389,8 +1389,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.16",
-                    "datestamp": "1672243573",
+                    "version": "8.x-2.17",
+                    "datestamp": "1683305302",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2061,6 +2061,104 @@
             "homepage": "https://www.drupal.org/project/edux",
             "support": {
                 "source": "https://git.drupalcode.org/project/edux"
+            }
+        },
+        {
+            "name": "drupal/menu_export",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_export.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_export-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "9bcefcf4077cfd751b9b28ae6b1a3f2f7febec3e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1683815876",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
+                },
+                {
+                    "name": "sandeepguntaka",
+                    "homepage": "https://www.drupal.org/user/3397192"
+                }
+            ],
+            "description": "This module exports and imports menus and menu links.",
+            "homepage": "https://www.drupal.org/project/menu_export",
+            "support": {
+                "source": "https://git.drupalcode.org/project/menu_export"
+            }
+        },
+        {
+            "name": "drupal/menu_migration",
+            "version": "2.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_migration.git",
+                "reference": "2.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_migration-2.0.0-alpha1.zip",
+                "reference": "2.0.0-alpha1",
+                "shasum": "d1067745f48a292a95fa2ae2d533b698fcd52480"
+            },
+            "require": {
+                "drupal/core": "^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha1",
+                    "datestamp": "1678819256",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10 || ^11"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Cristina Bujiță",
+                    "homepage": "https://www.drupal.org/u/bbu23"
+                }
+            ],
+            "description": "Provides a basic menus import/export functionality.",
+            "homepage": "https://www.drupal.org/project/menu_migration",
+            "support": {
+                "source": "https://git.drupalcode.org/project/menu_migration",
+                "issues": "https://www.drupal.org/project/issues/menu_migration"
             }
         },
         {
@@ -6898,7 +6996,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/menu_migration": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
