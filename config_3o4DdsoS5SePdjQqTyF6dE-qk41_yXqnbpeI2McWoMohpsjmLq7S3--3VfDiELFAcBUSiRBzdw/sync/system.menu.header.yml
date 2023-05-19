@@ -1,0 +1,8 @@
+uuid: a5cc7db8-6985-4b0d-af7b-04daec30e7f8
+langcode: en
+status: true
+dependencies: {  }
+id: header
+label: Header
+description: 'Lists site link of news'
+locked: false

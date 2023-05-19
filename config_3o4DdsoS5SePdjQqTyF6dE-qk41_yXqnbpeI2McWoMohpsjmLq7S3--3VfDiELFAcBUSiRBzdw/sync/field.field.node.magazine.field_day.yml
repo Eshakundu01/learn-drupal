@@ -1,0 +1,23 @@
+uuid: 4e5ab1d1-ed17-4528-9234-c302a0da4baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_day
+    - node.type.magazine
+id: node.magazine.field_day
+field_name: field_day
+entity_type: node
+bundle: magazine
+label: 'Open Status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

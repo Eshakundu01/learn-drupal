@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    en: ''
+    zh-hans: zh-hans
+    ar: ar
+    de: de
+    ru: ru
+  domains:
+    en: www.dwebsite.com
+    zh-hans: www.zh.dwebsite.com
+    ar: www.ar.dwebsite.com
+    de: www.de.dwebsite.com
+    ru: www.ru.dwebsite.com
+selected_langcode: site_default

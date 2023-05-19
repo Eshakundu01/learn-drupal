@@ -1,0 +1,17 @@
+label: 新进用户
+display:
+  default:
+    display_title: 默认
+    display_options:
+      title: 新进用户
+      exposed_form:
+        options:
+          submit_button: 应用
+          reset_button_label: 重置
+          exposed_sorts_label: 排序依据
+          sort_desc_label: 降序
+  block_1:
+    display_title: 新进用户
+    display_options:
+      block_description: 新进用户
+      block_category: 用户

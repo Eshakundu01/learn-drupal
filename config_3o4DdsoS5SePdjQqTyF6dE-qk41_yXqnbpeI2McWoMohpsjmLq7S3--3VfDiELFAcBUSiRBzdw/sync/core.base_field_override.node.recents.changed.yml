@@ -1,0 +1,18 @@
+uuid: 0f70aaec-50b8-455b-bbef-0f5e2452d4a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recents
+id: node.recents.changed
+field_name: changed
+entity_type: node
+bundle: recents
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

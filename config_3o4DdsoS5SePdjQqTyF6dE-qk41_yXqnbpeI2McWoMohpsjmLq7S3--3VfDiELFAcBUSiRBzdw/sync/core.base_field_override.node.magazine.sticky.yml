@@ -1,0 +1,22 @@
+uuid: 18064c57-1f20-4b4e-b7d1-489b25c5c0d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.magazine
+id: node.magazine.sticky
+field_name: sticky
+entity_type: node
+bundle: magazine
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

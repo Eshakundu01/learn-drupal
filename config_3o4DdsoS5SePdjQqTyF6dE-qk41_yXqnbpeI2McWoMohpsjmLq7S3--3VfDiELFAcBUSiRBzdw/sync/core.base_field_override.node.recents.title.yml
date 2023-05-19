@@ -1,0 +1,18 @@
+uuid: e4e3f1a5-95d1-487f-8bcd-a9787b7fbf9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recents
+id: node.recents.title
+field_name: title
+entity_type: node
+bundle: recents
+label: 'News Header'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

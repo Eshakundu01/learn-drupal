@@ -1,0 +1,19 @@
+uuid: d9b3f841-922c-402e-a0a0-1c250106ce87
+langcode: en
+status: true
+dependencies: {  }
+id: development_split
+label: 'Development split'
+description: ''
+weight: 0
+folder: ../config_3o4DdsoS5SePdjQqTyF6dE-qk41_yXqnbpeI2McWoMohpsjmLq7S3--3VfDiELFAcBUSiRBzdw/development
+module:
+  devel: 0
+  devel_generate: 0
+theme: {  }
+blacklist:
+  - devel.settings
+  - devel.toolbar.settings
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

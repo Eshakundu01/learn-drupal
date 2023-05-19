@@ -1,0 +1,10 @@
+label: Перевод
+tips:
+  locale-overview:
+    label: 'Перевод пользовательского интерфейса'
+  locale-language:
+    label: 'Язык перевода'
+  locale-search:
+    label: Поиск
+  locale-translate:
+    label: Переводы

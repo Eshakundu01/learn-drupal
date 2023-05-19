@@ -1,0 +1,5 @@
+tips:
+  block-region:
+    label: 'Регион Блока'
+  configure-block:
+    label: 'Настроить блок'

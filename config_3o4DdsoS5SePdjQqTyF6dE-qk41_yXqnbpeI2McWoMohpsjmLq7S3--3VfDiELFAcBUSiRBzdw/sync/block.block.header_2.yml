@@ -1,0 +1,25 @@
+uuid: a6f7a8bd-ecf3-463a-9a9c-d0392d07239c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - system
+  theme:
+    - edux
+id: header_2
+theme: edux
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: Header
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: true
+visibility: {  }

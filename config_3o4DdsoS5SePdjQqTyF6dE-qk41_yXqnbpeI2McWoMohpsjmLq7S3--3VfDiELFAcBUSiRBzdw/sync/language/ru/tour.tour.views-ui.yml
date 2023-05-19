@@ -1,0 +1,9 @@
+tips:
+  views-ui-format:
+    label: 'Формат вывода'
+  views-ui-fields:
+    label: Поля
+  views-ui-sorts:
+    label: 'Критерий сортировки'
+  views-ui-preview:
+    label: Предпросмотр

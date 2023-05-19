@@ -1,0 +1,18 @@
+uuid: 87c112d3-4257-47e4-80dd-21e279778471
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.magazine
+id: node.magazine.changed
+field_name: changed
+entity_type: node
+bundle: magazine
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

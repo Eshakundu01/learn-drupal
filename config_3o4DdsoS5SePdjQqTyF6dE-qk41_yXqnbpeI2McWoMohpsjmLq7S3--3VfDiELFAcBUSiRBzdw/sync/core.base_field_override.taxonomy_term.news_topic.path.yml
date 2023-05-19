@@ -1,0 +1,20 @@
+uuid: 629af69b-cc58-4ae3-80a5-b9ce07bd61f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news_topic
+  module:
+    - path
+id: taxonomy_term.news_topic.path
+field_name: path
+entity_type: taxonomy_term
+bundle: news_topic
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

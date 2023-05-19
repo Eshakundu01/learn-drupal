@@ -1,0 +1,20 @@
+uuid: 6d2385de-abc0-4df3-80ec-c5772f17f85e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cafe_menu
+  module:
+    - text
+id: taxonomy_term.cafe_menu.description
+field_name: description
+entity_type: taxonomy_term
+bundle: cafe_menu
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

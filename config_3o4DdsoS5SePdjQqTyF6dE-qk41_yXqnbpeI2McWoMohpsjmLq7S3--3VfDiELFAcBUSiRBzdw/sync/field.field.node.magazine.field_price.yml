@@ -1,0 +1,25 @@
+uuid: a7d87e7f-5773-43c2-b38d-ff84a252a9bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.magazine
+id: node.magazine.field_price
+field_name: field_price
+entity_type: node
+bundle: magazine
+label: Price
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 199.0
+default_value_callback: ''
+settings:
+  min: 199.0
+  max: 1999.0
+  prefix: Rupees
+  suffix: ''
+field_type: decimal

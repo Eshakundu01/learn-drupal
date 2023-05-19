@@ -1,0 +1,20 @@
+uuid: 255c43e5-6a82-41da-89df-178595999127
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.magazine
+  module:
+    - path
+id: node.magazine.path
+field_name: path
+entity_type: node
+bundle: magazine
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

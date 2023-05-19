@@ -1,0 +1,5 @@
+tips:
+  language-edit-langcode:
+    label: 语言代码
+  language-edit-label:
+    label: 语言名称

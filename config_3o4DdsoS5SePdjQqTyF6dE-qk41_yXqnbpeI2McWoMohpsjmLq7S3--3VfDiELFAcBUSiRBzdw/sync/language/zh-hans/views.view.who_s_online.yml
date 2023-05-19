@@ -1,0 +1,20 @@
+display:
+  default:
+    display_title: 默认
+    display_options:
+      title: 在线用户
+      exposed_form:
+        options:
+          submit_button: 应用
+          reset_button_label: 重置
+          exposed_sorts_label: 排序依据
+          sort_desc_label: 降序
+      filters:
+        access:
+          expose:
+            label: 上次访问
+            description: 浏览页面后在站点中保持特定时间的用户被认为在线
+  who_s_online_block:
+    display_title: 在线用户
+    display_options:
+      block_description: 在线用户

@@ -1,0 +1,20 @@
+uuid: 6364bec3-fc40-42db-b658-3b667dd6047f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recents
+  module:
+    - path
+id: node.recents.path
+field_name: path
+entity_type: node
+bundle: recents
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

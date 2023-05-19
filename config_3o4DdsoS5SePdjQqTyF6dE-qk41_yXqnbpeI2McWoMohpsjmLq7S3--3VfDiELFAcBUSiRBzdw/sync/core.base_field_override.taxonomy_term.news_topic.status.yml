@@ -1,0 +1,22 @@
+uuid: 1ae952d5-9257-4d89-82c9-bc2eef7f83b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news_topic
+id: taxonomy_term.news_topic.status
+field_name: status
+entity_type: taxonomy_term
+bundle: news_topic
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

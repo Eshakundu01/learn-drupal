@@ -1,0 +1,65 @@
+uuid: 89185b52-a951-4ca6-9caa-ac9b3db6f7bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.form.body
+    - field.field.node.form.field_dob
+    - field.field.node.form.field_items
+    - field.field.node.form.field_mailid
+    - field.field.node.form.field_photo
+    - field.field.node.form.field_question
+    - node.type.form
+  module:
+    - datetime
+    - text
+    - user
+id: node.form.teaser
+targetEntityType: node
+bundle: form
+mode: teaser
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 500
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_dob:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_mailid:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_question:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_items: true
+  field_photo: true
+  langcode: true

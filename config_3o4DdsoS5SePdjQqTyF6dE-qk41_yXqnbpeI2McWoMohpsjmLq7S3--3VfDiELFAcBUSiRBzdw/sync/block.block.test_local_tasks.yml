@@ -1,0 +1,22 @@
+uuid: edcad28c-25ba-4156-9bf6-264546811100
+langcode: en
+status: true
+dependencies:
+  theme:
+    - test
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: test_local_tasks
+theme: test
+region: header
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

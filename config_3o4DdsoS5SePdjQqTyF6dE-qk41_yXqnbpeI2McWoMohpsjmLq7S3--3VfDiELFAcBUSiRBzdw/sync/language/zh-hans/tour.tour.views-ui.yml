@@ -1,0 +1,9 @@
+tips:
+  views-ui-format:
+    label: 输出格式
+  views-ui-fields:
+    label: 字段
+  views-ui-sorts:
+    label: 排序准则
+  views-ui-preview:
+    label: 预览

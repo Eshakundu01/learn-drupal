@@ -1,0 +1,25 @@
+uuid: 9a4c0802-40ce-4eaa-830d-8b059839df31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_items
+    - node.type.form
+id: node.form.field_items
+field_name: field_items
+entity_type: node
+bundle: form
+label: Items
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: item
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

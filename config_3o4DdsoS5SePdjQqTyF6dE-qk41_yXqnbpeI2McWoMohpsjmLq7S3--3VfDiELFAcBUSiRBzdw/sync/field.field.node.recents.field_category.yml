@@ -1,0 +1,29 @@
+uuid: c4ec548a-88bf-4573-9beb-4b876d355c71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.recents
+    - taxonomy.vocabulary.news_topic
+id: node.recents.field_category
+field_name: field_category
+entity_type: node
+bundle: recents
+label: Category
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      news_topic: news_topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

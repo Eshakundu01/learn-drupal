@@ -1,0 +1,7 @@
+tips:
+  language-edit-langcode:
+    label: 'Код языка'
+  language-edit-label:
+    label: 'Название языка'
+  language-edit-direction:
+    label: 'Направление языка'

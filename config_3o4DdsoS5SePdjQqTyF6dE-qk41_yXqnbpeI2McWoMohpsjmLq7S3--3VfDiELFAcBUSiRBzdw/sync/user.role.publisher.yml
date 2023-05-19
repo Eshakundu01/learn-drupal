@@ -1,0 +1,27 @@
+uuid: 51537242-f15e-4619-b610-f80d2d292030
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - comment
+    - node
+    - path
+    - shortcut
+    - toolbar
+    - tour
+id: publisher
+label: 'Content Publisher'
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer shortcuts'
+  - 'create page content'
+  - 'create url aliases'
+  - 'edit any page content'
+  - 'edit own comments'
+  - 'edit own page content'

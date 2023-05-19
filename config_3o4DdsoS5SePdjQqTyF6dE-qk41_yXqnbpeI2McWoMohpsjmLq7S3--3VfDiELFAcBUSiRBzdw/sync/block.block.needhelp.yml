@@ -1,0 +1,30 @@
+uuid: acc5dba2-c392-4124-b6a3-d0b3d920689d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a51e7514-037e-4176-ae44-bcb77e462d5e'
+  module:
+    - block_content
+    - system
+  theme:
+    - test
+id: needhelp
+theme: test
+region: highlighted
+weight: -11
+provider: null
+plugin: 'block_content:a51e7514-037e-4176-ae44-bcb77e462d5e'
+settings:
+  id: 'block_content:a51e7514-037e-4176-ae44-bcb77e462d5e'
+  label: 'Need Help!'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/12

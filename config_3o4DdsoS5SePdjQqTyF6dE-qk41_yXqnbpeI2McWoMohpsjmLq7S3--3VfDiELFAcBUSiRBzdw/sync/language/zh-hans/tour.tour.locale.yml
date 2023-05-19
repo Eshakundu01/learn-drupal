@@ -1,0 +1,8 @@
+label: 翻译
+tips:
+  locale-language:
+    label: 翻译语言
+  locale-search:
+    label: 搜索
+  locale-translate:
+    label: 翻译

@@ -1,0 +1,20 @@
+uuid: 6a08ddbb-fa2d-443f-85c8-38f434074b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.form
+  module:
+    - path
+id: node.form.path
+field_name: path
+entity_type: node
+bundle: form
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

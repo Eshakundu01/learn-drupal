@@ -1,0 +1,25 @@
+uuid: 109e62e9-0cb4-4787-ad8e-7ab2c1b51370
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - system
+  theme:
+    - thex
+id: header_3
+theme: thex
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: Header
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

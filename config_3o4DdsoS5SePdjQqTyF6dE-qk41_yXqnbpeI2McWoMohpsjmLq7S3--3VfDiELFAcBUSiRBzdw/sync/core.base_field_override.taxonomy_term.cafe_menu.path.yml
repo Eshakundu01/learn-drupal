@@ -1,0 +1,20 @@
+uuid: 7521b13f-2808-421f-ae53-99e3c81a910e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cafe_menu
+  module:
+    - path
+id: taxonomy_term.cafe_menu.path
+field_name: path
+entity_type: taxonomy_term
+bundle: cafe_menu
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

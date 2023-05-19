@@ -1,0 +1,21 @@
+uuid: d2efa221-a727-43d6-945c-fa194bfc8fdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time
+    - node.type.magazine
+id: node.magazine.field_time
+field_name: field_time
+entity_type: node
+bundle: magazine
+label: 'Busy Hours'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1682600925
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

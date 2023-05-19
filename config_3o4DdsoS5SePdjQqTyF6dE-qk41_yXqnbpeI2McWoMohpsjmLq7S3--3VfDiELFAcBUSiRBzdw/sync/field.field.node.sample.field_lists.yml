@@ -1,0 +1,29 @@
+uuid: 10ba3564-cca8-442f-83d6-e8b066bf54a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lists
+    - node.type.article
+    - node.type.sample
+id: node.sample.field_lists
+field_name: field_lists
+entity_type: node
+bundle: sample
+label: 'List Of Articles'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,30 @@
+uuid: e6fb7b16-2b63-476a-affc-a427b1404861
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_article
+  module:
+    - system
+    - views
+  theme:
+    - test
+id: views_block__recent_article_block_1
+theme: test
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:recent_article-block_1'
+settings:
+  id: 'views_block:recent_article-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+  exposed: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/article/*'

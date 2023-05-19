@@ -1,0 +1,22 @@
+uuid: c4744256-ac27-4fa8-ad56-1b96ffc7ca9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - test
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: test_content
+theme: test
+region: content
+weight: -10
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
