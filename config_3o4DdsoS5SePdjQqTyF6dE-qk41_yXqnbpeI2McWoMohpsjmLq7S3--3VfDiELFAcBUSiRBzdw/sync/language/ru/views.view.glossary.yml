@@ -1,4 +1,5 @@
 label: Глоссарий
+description: 'Все материалы, по алфавиту.'
 display:
   default:
     display_title: 'По умолчанию'

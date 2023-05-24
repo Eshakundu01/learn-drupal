@@ -1,4 +1,5 @@
 label: Файлы
+description: 'Поиск файлов и управление ими.'
 display:
   default:
     display_title: 'По умолчанию'
@@ -25,6 +26,8 @@ display:
           label: 'Дата изменения'
         count:
           label: 'Используется в'
+          alter:
+            path: 'admin/content/files/usage/{{ fid }}'
       pager:
         options:
           tags:
@@ -54,16 +57,21 @@ display:
           expose:
             label: Статус
   page_1:
+    display_title: 'Обзор файлов'
     display_options:
       menu:
         title: Файлы
   page_2:
+    display_title: 'Использование файла'
     display_options:
+      title: 'Использование файла'
       fields:
         entity_label:
           label: Сущность
         type:
           label: 'Тип сущности'
+        module:
+          label: 'Регистрация модуля'
         count:
           label: 'Используемое количество'
       pager:
@@ -78,3 +86,4 @@ display:
         fid:
           exception:
             title: Все
+          title: 'Информация про использование файла для {{ arguments.fid }}'

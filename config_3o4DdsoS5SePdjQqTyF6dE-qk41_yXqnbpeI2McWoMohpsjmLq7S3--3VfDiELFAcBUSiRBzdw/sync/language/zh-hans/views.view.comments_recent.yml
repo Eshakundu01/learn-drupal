@@ -1,4 +1,5 @@
 label: 最新评论
+description: 最新评论。
 display:
   default:
     display_title: 默认
@@ -15,3 +16,4 @@ display:
     display_title: 区块
     display_options:
       block_description: 最新评论
+      block_category: 列表（视图）

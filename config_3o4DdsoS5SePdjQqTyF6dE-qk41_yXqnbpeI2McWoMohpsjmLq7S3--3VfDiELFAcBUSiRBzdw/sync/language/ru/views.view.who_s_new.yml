@@ -1,4 +1,5 @@
 label: 'Новые пользователи'
+description: 'Показывает список новых учётных записей пользователей на сайте.'
 display:
   default:
     display_title: 'По умолчанию'
@@ -14,5 +15,6 @@ display:
   block_1:
     display_title: 'Новые пользователи'
     display_options:
+      display_description: 'Список новых пользователей'
       block_description: 'Новые пользователи'
       block_category: Пользователь

@@ -8,6 +8,8 @@ display:
       fields:
         nothing:
           admin_label: Иконка
+        wid:
+          label: WID
         severity:
           label: Важность
         type:
@@ -16,6 +18,9 @@ display:
           label: Дата
         message:
           label: Сообщение
+          alter:
+            path: 'admin/reports/dblog/event/{{ wid }}'
+            alt: сообщение
         name:
           label: Пользователь
           separator: ', '

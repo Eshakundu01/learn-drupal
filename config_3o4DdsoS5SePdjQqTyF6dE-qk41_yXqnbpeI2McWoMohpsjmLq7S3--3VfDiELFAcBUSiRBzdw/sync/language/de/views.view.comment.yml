@@ -1,4 +1,5 @@
 label: Kommentare
+description: 'Kommentare finden und verwalten.'
 display:
   default:
     display_title: Standard
@@ -62,6 +63,7 @@ display:
     display_options:
       menu:
         title: Kommentare
+        description: 'Kommentare veröffentlicht'
   page_unapproved:
     display_title: 'Nicht freigegebene Kommentare'
     display_options:
@@ -96,5 +98,7 @@ display:
         langcode:
           expose:
             label: Sprache
+      display_description: 'Die Liste unveröffentlichter Kommentare'
       menu:
         title: 'Nicht freigegebene Kommentare'
+        description: 'Unveröffentlichte Kommentare'

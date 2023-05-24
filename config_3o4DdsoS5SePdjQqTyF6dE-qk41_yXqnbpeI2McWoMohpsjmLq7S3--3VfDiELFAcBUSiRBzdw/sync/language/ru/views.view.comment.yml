@@ -1,4 +1,5 @@
 label: Комментарии
+description: 'Найти и управлять комментариями.'
 display:
   default:
     display_title: 'По умолчанию'
@@ -56,8 +57,10 @@ display:
   page_published:
     display_title: 'Опубликованные комментарии'
     display_options:
+      display_description: 'Список утверждённых комментариев.'
       menu:
         title: Комментарии
+        description: 'Комментарии опубликованы'
   page_unapproved:
     display_title: 'Неодобренные комментарии'
     display_options:
@@ -92,5 +95,7 @@ display:
         langcode:
           expose:
             label: Язык
+      display_description: 'Список неутверждённых комментариев.'
       menu:
         title: 'Неодобренные комментарии'
+        description: 'Комментарии не одобрены'

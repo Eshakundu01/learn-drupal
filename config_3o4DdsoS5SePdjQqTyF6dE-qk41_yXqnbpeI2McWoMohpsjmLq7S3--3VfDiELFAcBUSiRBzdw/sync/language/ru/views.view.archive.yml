@@ -1,4 +1,5 @@
 label: Архив
+description: 'Все материалы, по месяцам.'
 display:
   default:
     display_title: 'По умолчанию'
@@ -20,7 +21,14 @@ display:
           exposed_sorts_label: 'Сортировать по'
           sort_asc_label: 'По возрастанию'
           sort_desc_label: 'По убыванию'
+      arguments:
+        created_year_month:
+          title: '{{ arguments.created_year_month }}'
   block_1:
     display_title: Блок
+    display_options:
+      arguments:
+        created_year_month:
+          title: '{{ arguments.created_year_month }}'
   page_1:
     display_title: Страница

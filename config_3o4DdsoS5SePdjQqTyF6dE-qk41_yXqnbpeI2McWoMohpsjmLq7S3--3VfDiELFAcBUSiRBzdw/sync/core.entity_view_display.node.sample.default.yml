@@ -3,15 +3,25 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.sample.field_documents
     - field.field.node.sample.field_lists
     - node.type.sample
   module:
+    - file
     - user
 id: node.sample.default
 targetEntityType: node
 bundle: sample
 mode: default
 content:
+  field_documents:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
   field_lists:
     type: entity_reference_label
     label: hidden

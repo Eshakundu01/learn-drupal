@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.sample.field_documents
     - field.field.node.sample.field_lists
     - node.type.sample
   module:
@@ -19,5 +20,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_documents: true
   field_lists: true
   langcode: true

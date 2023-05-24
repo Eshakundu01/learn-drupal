@@ -19,9 +19,13 @@ display:
           label: Rollen
         created:
           label: 'Mitglied seit'
+          settings:
+            future_format: '@interval'
+            past_format: '@interval'
         access:
           label: 'Letzter Zugriff'
           settings:
+            future_format: 'in @interval'
             past_format: 'vor @interval'
         operations:
           label: Aktionen
@@ -49,6 +53,9 @@ display:
         area_text_custom:
           content: 'Keine Personen verfügbar.'
       filters:
+        combine:
+          expose:
+            label: 'Name oder E-Mail-Adresse enthält'
         status:
           group_info:
             label: Status

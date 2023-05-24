@@ -1,0 +1,15 @@
+uuid: 697ff6b6-9811-4045-b468-87f9b1c749d6
+langcode: en
+status: true
+dependencies: {  }
+id: _documents
+path: /documents
+bypass: false
+grant_file_owners: false
+users: {  }
+roles:
+  publisher: publisher
+  administrator: administrator
+  anonymous: '0'
+  authenticated: '0'
+  content_editor: '0'

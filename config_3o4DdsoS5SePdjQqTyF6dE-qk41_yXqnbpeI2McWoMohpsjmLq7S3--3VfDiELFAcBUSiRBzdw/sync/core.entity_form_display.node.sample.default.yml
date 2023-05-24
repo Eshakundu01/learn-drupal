@@ -3,9 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.sample.field_documents
     - field.field.node.sample.field_lists
     - node.type.sample
   module:
+    - file
     - path
 id: node.sample.default
 targetEntityType: node
@@ -17,6 +19,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_documents:
+    type: file_generic
+    weight: 123
+    region: content
+    settings:
+      progress_indicator: throbber
     third_party_settings: {  }
   field_lists:
     type: entity_reference_autocomplete
@@ -69,6 +78,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

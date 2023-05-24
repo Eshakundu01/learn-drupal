@@ -1,4 +1,5 @@
 label: Dateien
+description: 'Dateien suchen und verwalten.'
 display:
   default:
     display_title: Standard
@@ -25,6 +26,8 @@ display:
           label: Änderungsdatum
         count:
           label: 'Verwendet in'
+          alter:
+            path: 'admin/content/files/usage/{{ fid }}'
       pager:
         options:
           tags:
@@ -55,16 +58,21 @@ display:
           expose:
             label: Status
   page_1:
+    display_title: Dateiübersicht
     display_options:
       menu:
         title: Dateien
   page_2:
+    display_title: Dateinutzung
     display_options:
+      title: Dateinutzung
       fields:
         entity_label:
           label: Entität
         type:
           label: Entitätstyp
+        module:
+          label: 'Registrierendes Modul'
         count:
           label: 'Anzahl der Verwendung'
       pager:
@@ -80,3 +88,4 @@ display:
         fid:
           exception:
             title: Alle
+          title: 'Dateiverwendungsinformationen für {{ arguments.fid }}'

@@ -33,6 +33,7 @@ display:
           submit_button: 过滤
           reset_button_label: 重置
           exposed_sorts_label: 排序依据
+          sort_asc_label: 升序
           sort_desc_label: 降序
       empty:
         area_text_custom:
@@ -64,3 +65,4 @@ display:
         title: 内容
       tab_options:
         title: 内容
+        description: 查找与管理内容

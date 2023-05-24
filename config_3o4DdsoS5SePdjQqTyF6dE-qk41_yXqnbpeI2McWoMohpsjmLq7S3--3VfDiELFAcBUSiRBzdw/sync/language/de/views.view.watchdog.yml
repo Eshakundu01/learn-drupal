@@ -8,6 +8,8 @@ display:
       fields:
         nothing:
           admin_label: Symbol
+        wid:
+          label: WID
         severity:
           label: Schweregrad
         type:
@@ -16,6 +18,9 @@ display:
           label: Datum
         message:
           label: Benachrichtigung
+          alter:
+            path: 'admin/reports/dblog/event/{{ wid }}'
+            alt: '{{ message }}'
         name:
           label: Benutzer
           separator: ', '

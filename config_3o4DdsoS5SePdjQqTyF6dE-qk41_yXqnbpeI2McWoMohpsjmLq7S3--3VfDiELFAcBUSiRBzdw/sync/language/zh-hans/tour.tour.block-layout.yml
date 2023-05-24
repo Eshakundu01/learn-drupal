@@ -1,3 +1,5 @@
 tips:
+  place-block:
+    label: 放置区块
   configure-block:
     label: 配置块
