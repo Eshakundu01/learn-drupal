@@ -1,0 +1,37 @@
+uuid: cdc052a9-f03b-45f8-933a-f0ff6d29ef1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.queries
+    - field.field.comment.queries.comment_body
+    - field.field.comment.queries.field_picture
+  module:
+    - image
+    - text
+id: comment.queries.default
+targetEntityType: comment
+bundle: queries
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_picture:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  links: true

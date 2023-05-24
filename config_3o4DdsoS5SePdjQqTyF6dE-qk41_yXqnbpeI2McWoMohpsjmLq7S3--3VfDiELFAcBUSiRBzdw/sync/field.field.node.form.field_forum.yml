@@ -1,20 +1,20 @@
-uuid: b9c5d9dd-a0ba-4298-826b-0b313a538cf5
+uuid: 18385872-6d65-4a5f-bc6d-ebd53a574977
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_post
-    - node.type.magazine
+    - field.storage.node.field_forum
+    - node.type.form
   module:
     - comment
-id: node.magazine.field_post
-field_name: field_post
+id: node.form.field_forum
+field_name: field_forum
 entity_type: node
-bundle: magazine
-label: Post
-description: 'Comments that will be added.'
+bundle: form
+label: Forum
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     status: 2
@@ -26,7 +26,7 @@ default_value:
 default_value_callback: ''
 settings:
   default_mode: 1
-  per_page: 10
+  per_page: 50
   anonymous: 0
   form_location: true
   preview: 1

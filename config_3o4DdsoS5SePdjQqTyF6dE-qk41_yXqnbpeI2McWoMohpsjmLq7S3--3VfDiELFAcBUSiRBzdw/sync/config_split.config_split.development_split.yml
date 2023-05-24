@@ -6,14 +6,13 @@ id: development_split
 label: 'Development split'
 description: ''
 weight: 0
+storage: folder
 folder: ../config_3o4DdsoS5SePdjQqTyF6dE-qk41_yXqnbpeI2McWoMohpsjmLq7S3--3VfDiELFAcBUSiRBzdw/development
 module:
   devel: 0
   devel_generate: 0
 theme: {  }
-blacklist:
+complete_list:
   - devel.settings
   - devel.toolbar.settings
-graylist: {  }
-graylist_dependents: true
-graylist_skip_equal: true
+partial_list: {  }

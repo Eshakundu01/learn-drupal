@@ -12,7 +12,7 @@ dependencies:
 id: everywhere
 theme: test
 region: help
-weight: 0
+weight: -12
 provider: null
 plugin: 'block_content:c1c5c76f-7fce-4016-a4d7-32eb8b6e6629'
 settings:

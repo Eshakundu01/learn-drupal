@@ -2,6 +2,8 @@ custom:
   css:
     theme:
       css/style.css: {}
+      css/view.css: {}
+      css/block.css: {}
   js:
     js/style.js: {}
 # Uncomment for LESS source JavaScript files.

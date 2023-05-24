@@ -12,7 +12,7 @@ dependencies:
 id: pageblock
 theme: test
 region: sidebar_first
-weight: -8
+weight: -12
 provider: null
 plugin: 'block_content:ed2740b9-9739-462a-ba78-3b908294cd5e'
 settings:

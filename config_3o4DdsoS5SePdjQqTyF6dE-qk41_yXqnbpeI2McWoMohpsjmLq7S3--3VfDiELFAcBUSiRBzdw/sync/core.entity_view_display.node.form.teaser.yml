@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.form.body
     - field.field.node.form.field_dob
+    - field.field.node.form.field_forum
     - field.field.node.form.field_items
     - field.field.node.form.field_mailid
     - field.field.node.form.field_photo
@@ -60,6 +61,7 @@ content:
     weight: 0
     region: content
 hidden:
+  field_forum: true
   field_items: true
   field_photo: true
   langcode: true

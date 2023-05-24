@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.event.field_end_date
     - field.field.node.event.field_guest
     - field.field.node.event.field_location
+    - field.field.node.event.field_place
     - field.field.node.event.field_registration_fee
     - field.field.node.event.field_start_date
     - node.type.event
@@ -54,5 +55,6 @@ content:
 hidden:
   field_guest: true
   field_location: true
+  field_place: true
   field_registration_fee: true
   langcode: true

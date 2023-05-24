@@ -1,0 +1,8 @@
+uuid: 57f5ffd4-9c36-4586-81db-3c9827f13337
+langcode: en
+status: true
+dependencies: {  }
+id: queries
+label: Queries
+target_entity_type_id: node
+description: 'New comment type for content.'

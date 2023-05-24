@@ -11,7 +11,7 @@ _core:
 id: test_content
 theme: test
 region: content
-weight: -10
+weight: -14
 provider: null
 plugin: system_main_block
 settings:

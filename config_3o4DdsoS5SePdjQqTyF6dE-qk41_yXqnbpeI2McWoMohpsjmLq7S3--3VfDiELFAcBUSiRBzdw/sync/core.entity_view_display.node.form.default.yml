@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.field.node.form.body
     - field.field.node.form.field_dob
+    - field.field.node.form.field_forum
     - field.field.node.form.field_items
     - field.field.node.form.field_mailid
     - field.field.node.form.field_photo
     - field.field.node.form.field_question
     - node.type.form
   module:
+    - comment
     - datetime
     - image
     - text
@@ -36,6 +38,15 @@ content:
       format_type: olivero_medium
     third_party_settings: {  }
     weight: 103
+    region: content
+  field_forum:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 107
     region: content
   field_items:
     type: entity_reference_label

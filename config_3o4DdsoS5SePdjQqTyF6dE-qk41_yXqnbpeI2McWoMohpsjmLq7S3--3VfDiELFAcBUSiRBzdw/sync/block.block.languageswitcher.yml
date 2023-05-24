@@ -9,7 +9,7 @@ dependencies:
 id: languageswitcher
 theme: test
 region: sidebar_first
-weight: 0
+weight: -11
 provider: null
 plugin: 'language_block:language_interface'
 settings:

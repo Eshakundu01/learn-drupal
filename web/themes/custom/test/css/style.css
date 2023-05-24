@@ -68,3 +68,13 @@
 .menu--header li a {
   display:inline-block;
 }
+
+.well {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.indented {
+  padding-left: 20px;
+}

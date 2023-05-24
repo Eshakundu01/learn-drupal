@@ -1,0 +1,41 @@
+#block-views-block-kolkata-events-block-1 {
+  background: linear-gradient(45deg, rgb(162, 7, 162), rgb(34, 34, 200));
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#block-views-block-kolkata-events-block-1:hover {
+  transform: scale(1.2,1.3);
+}
+
+#block-views-block-kolkata-events-block-1 .block-title {
+  font-size: medium;
+  color: #bbb8b8;
+  padding-left: 0;
+}
+
+.event-title a {
+  color: #0d0d5c;
+  font-weight: 600;
+}
+
+.event-title a:hover {
+  color: #bbb8b8;
+  text-decoration: none;
+}
+
+.know a {
+  display: none;
+}
+
+.know::after {
+  content: '\2192';
+  font-size: 30px;
+  color: #9a9696;
+}
+
+#block-views-block-kolkata-events-block-1:hover a {
+  display: inline;
+  color: #9a9696;
+  text-decoration: none;
+}

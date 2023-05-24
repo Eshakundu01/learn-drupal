@@ -9,7 +9,7 @@ dependencies:
 id: gtranslate
 theme: test
 region: sidebar_first
-weight: 0
+weight: -10
 provider: null
 plugin: gtranslate_block
 settings:

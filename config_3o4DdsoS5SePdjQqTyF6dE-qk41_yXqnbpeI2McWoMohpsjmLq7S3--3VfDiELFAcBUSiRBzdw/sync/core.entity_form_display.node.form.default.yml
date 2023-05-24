@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.form.body
     - field.field.node.form.field_dob
+    - field.field.node.form.field_forum
     - field.field.node.form.field_items
     - field.field.node.form.field_mailid
     - field.field.node.form.field_photo
@@ -12,6 +13,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.form
   module:
+    - comment
     - datetime
     - image
     - path
@@ -40,6 +42,12 @@ content:
   field_dob:
     type: datetime_default
     weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_forum:
+    type: comment_default
+    weight: 27
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -117,6 +125,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
