@@ -1,0 +1,8 @@
+uuid: 98c6afb9-12e8-4e25-b1db-85dc7e7d1987
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Topic'
+vid: news_topic
+description: 'The categories of news.'
+weight: 0

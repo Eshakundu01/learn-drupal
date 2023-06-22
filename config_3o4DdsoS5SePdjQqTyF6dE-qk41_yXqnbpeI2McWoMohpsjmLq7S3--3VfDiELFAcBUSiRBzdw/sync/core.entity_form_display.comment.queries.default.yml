@@ -1,0 +1,47 @@
+uuid: a5657eec-ff2c-448b-a17d-aac97f12288d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.queries
+    - field.field.comment.queries.comment_body
+    - field.field.comment.queries.field_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: comment.queries.default
+targetEntityType: comment
+bundle: queries
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 2
+      placeholder: 'Solve your queries.....'
+    third_party_settings: {  }
+  field_picture:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 3
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden:
+  subject: true

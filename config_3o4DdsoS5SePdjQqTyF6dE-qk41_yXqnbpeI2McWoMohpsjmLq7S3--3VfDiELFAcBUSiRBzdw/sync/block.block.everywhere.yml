@@ -1,0 +1,36 @@
+uuid: e29df8bc-329f-4a20-b08b-9ae2476468a5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c1c5c76f-7fce-4016-a4d7-32eb8b6e6629'
+  module:
+    - block_content
+    - node
+  theme:
+    - test
+id: everywhere
+theme: test
+region: help
+weight: -12
+provider: null
+plugin: 'block_content:c1c5c76f-7fce-4016-a4d7-32eb8b6e6629'
+settings:
+  id: 'block_content:c1c5c76f-7fce-4016-a4d7-32eb8b6e6629'
+  label: Everywhere
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      form: form
+      magazine: magazine
+      page: page
+      sample: sample

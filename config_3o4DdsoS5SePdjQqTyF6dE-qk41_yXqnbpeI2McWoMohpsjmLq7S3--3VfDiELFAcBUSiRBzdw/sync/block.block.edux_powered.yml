@@ -1,0 +1,22 @@
+uuid: efdf4d1b-4215-4cfb-974e-b8f4d8ee5d6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - edux
+_core:
+  default_config_hash: F0AQXwc6EGenhqEOcK3vCdhEUo-zvSTUMA5WKMraa2I
+id: edux_powered
+theme: edux
+region: hidden
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

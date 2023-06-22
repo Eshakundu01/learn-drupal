@@ -1,0 +1,23 @@
+uuid: e3ef21df-81b0-45d8-9bd5-602c5c8f4fc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_question
+    - node.type.form
+id: node.form.field_question
+field_name: field_question
+entity_type: node
+bundle: form
+label: 'Accept terms and conditions'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

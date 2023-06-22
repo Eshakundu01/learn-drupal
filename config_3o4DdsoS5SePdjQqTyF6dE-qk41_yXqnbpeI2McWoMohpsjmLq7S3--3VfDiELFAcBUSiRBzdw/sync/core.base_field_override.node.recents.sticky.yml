@@ -1,0 +1,22 @@
+uuid: 1a785008-e9c2-46fc-8794-4c948364fee7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recents
+id: node.recents.sticky
+field_name: sticky
+entity_type: node
+bundle: recents
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

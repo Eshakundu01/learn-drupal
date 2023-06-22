@@ -1,0 +1,36 @@
+uuid: 948513a8-88f9-4143-abb9-7aaa9814123e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list
+    - node.type.magazine
+    - taxonomy.vocabulary.cafe_menu
+  content:
+    - 'taxonomy_term:cafe_menu:47c3d4fd-57d2-4bd3-b33f-11ff511a6fc6'
+    - 'taxonomy_term:cafe_menu:a3da6c2f-843b-4cfc-88bf-7face0fd2292'
+id: node.magazine.field_list
+field_name: field_list
+entity_type: node
+bundle: magazine
+label: List
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: a3da6c2f-843b-4cfc-88bf-7face0fd2292
+  -
+    target_uuid: 47c3d4fd-57d2-4bd3-b33f-11ff511a6fc6
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cafe_menu: cafe_menu
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

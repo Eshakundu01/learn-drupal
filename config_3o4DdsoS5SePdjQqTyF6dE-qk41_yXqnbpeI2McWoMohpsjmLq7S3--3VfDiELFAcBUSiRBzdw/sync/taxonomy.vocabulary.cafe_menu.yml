@@ -1,0 +1,8 @@
+uuid: 57f64989-c085-42c2-bb39-266da55923e5
+langcode: en
+status: true
+dependencies: {  }
+name: 'Cafe Menu'
+vid: cafe_menu
+description: 'List of items present in the cafe'
+weight: 0

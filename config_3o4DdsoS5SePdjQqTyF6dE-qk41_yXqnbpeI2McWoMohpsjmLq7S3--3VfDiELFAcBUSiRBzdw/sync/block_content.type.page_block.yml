@@ -1,0 +1,8 @@
+uuid: d226fd54-85fc-486e-8a8b-3e6e257ab72c
+langcode: en
+status: true
+dependencies: {  }
+id: page_block
+label: 'Page Block'
+revision: 1
+description: 'A new block type.'

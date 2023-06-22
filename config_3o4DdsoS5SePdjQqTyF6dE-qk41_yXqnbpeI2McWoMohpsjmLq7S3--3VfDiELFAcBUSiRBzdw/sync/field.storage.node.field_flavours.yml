@@ -1,0 +1,36 @@
+uuid: 01a65957-da68-470c-8a77-6604fe4cfc4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_flavours
+field_name: field_flavours
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Chocolate
+      label: Chocolate
+    -
+      value: Strawberry
+      label: Strawberry
+    -
+      value: Vallina
+      label: Vallina
+    -
+      value: Mango
+      label: Mango
+    -
+      value: Orange
+      label: Orange
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

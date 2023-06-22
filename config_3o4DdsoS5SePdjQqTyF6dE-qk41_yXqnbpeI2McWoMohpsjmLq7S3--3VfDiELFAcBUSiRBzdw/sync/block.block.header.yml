@@ -1,0 +1,25 @@
+uuid: 793fe91f-706f-4073-9f84-fa3bf09a0be7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - system
+  theme:
+    - test
+id: header
+theme: test
+region: header
+weight: -10
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: Header
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: true
+visibility: {  }

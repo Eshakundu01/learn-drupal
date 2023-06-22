@@ -1,0 +1,23 @@
+uuid: 572a66d7-5ff5-4b30-ab33-1ded80656af5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_flavours
+    - node.type.magazine
+  module:
+    - options
+id: node.magazine.field_flavours
+field_name: field_flavours
+entity_type: node
+bundle: magazine
+label: "Today's Flavour"
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: Chocolate
+default_value_callback: ''
+settings: {  }
+field_type: list_string

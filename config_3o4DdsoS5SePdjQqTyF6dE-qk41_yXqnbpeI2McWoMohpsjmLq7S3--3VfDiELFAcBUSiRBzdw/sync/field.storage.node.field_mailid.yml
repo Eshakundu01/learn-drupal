@@ -1,0 +1,18 @@
+uuid: 4da7cfa7-eddc-4f16-862f-690db1c17b53
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_mailid
+field_name: field_mailid
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

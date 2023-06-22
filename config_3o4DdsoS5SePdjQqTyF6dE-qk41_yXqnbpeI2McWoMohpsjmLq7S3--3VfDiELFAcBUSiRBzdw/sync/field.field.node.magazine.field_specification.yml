@@ -1,0 +1,27 @@
+uuid: e1e7b584-ae31-4755-b642-52e35a7e1591
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_specification
+    - node.type.magazine
+  module:
+    - file
+id: node.magazine.field_specification
+field_name: field_specification
+entity_type: node
+bundle: magazine
+label: 'Detailed List'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: files_uploaded
+  file_extensions: 'txt pdf'
+  max_filesize: '100 MB'
+  description_field: false
+field_type: file

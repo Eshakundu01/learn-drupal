@@ -1,0 +1,42 @@
+.control-label {
+  font-weight: 100;
+}
+
+.event-wrapper {
+  padding-bottom: 15px;
+  border-width: 1px;
+  border-bottom-style: dashed;
+}
+
+.event-name a:hover {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+.brief {
+  padding: 15px 0;
+}
+
+.more a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #a4a4a4;
+  border-radius: 30px;
+}
+
+.more:hover a {
+  background-color: #a4a4a4;
+  text-decoration: none;
+  color: black;
+}
+
+.pager li > a {
+  padding: 10px 20px;
+  border: 2px solid #a4a4a4;
+  border-radius: 30px;
+}
+
+.pager li > a:hover {
+  text-decoration: none;
+  color: black;
+}

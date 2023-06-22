@@ -1,0 +1,59 @@
+uuid: a7f80b09-77d6-48fd-ac1f-e6fc74370617
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.event
+    - node.type.page
+    - node.type.recents
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - file
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: -7
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create event content'
+  - 'create page content'
+  - 'create recents content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any recents content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete own recents content'
+  - 'delete page revisions'
+  - 'delete recents revisions'
+  - 'edit any event content'
+  - 'edit any recents content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own event content'
+  - 'edit own page content'
+  - 'edit own recents content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

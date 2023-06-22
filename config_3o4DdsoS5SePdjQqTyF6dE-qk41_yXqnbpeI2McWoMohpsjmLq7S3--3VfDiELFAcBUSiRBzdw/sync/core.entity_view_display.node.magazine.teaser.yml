@@ -1,0 +1,57 @@
+uuid: 2665ec14-4c3e-4f4e-8bbc-f44891646b97
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.magazine.body
+    - field.field.node.magazine.field_contact
+    - field.field.node.magazine.field_day
+    - field.field.node.magazine.field_event
+    - field.field.node.magazine.field_flavours
+    - field.field.node.magazine.field_hours
+    - field.field.node.magazine.field_list
+    - field.field.node.magazine.field_post
+    - field.field.node.magazine.field_price
+    - field.field.node.magazine.field_rating
+    - field.field.node.magazine.field_specification
+    - field.field.node.magazine.field_time
+    - field.field.node.magazine.field_try
+    - field.field.node.magazine.field_url
+    - node.type.magazine
+  module:
+    - text
+    - user
+id: node.magazine.teaser
+targetEntityType: node
+bundle: magazine
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_contact: true
+  field_day: true
+  field_event: true
+  field_flavours: true
+  field_hours: true
+  field_list: true
+  field_post: true
+  field_price: true
+  field_rating: true
+  field_specification: true
+  field_time: true
+  field_try: true
+  field_url: true
+  langcode: true

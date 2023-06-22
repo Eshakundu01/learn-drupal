@@ -1,0 +1,18 @@
+uuid: 1b34e7aa-e35e-4a94-80b1-de81013831b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cafe_menu
+id: taxonomy_term.cafe_menu.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: cafe_menu
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

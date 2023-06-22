@@ -1,0 +1,23 @@
+uuid: fd055ae3-2ad6-4a03-8a2b-48db00adb7cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recents
+  module:
+    - text
+id: node.recents.body
+field_name: body
+entity_type: node
+bundle: recents
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

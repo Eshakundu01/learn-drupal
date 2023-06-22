@@ -1,0 +1,18 @@
+uuid: fdddcd02-bf7a-4354-83b4-480eae697079
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recents
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.recents
+target_entity_type_id: node
+target_bundle: recents
+default_langcode: site_default
+language_alterable: true

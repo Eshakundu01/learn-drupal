@@ -1,0 +1,20 @@
+uuid: ea1dc3f0-0dab-47cb-a1f4-db9ac3000cc0
+langcode: en
+status: false
+dependencies:
+  module:
+    - gtranslate
+  theme:
+    - test
+id: gtranslate
+theme: test
+region: sidebar_first
+weight: -10
+provider: null
+plugin: gtranslate_block
+settings:
+  id: gtranslate_block
+  label: Languages
+  label_display: visible
+  provider: gtranslate
+visibility: {  }

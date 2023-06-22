@@ -1,0 +1,18 @@
+uuid: 07e96794-6a10-48f5-9822-47c33ff048b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cafe_menu
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.cafe_menu
+target_entity_type_id: taxonomy_term
+target_bundle: cafe_menu
+default_langcode: site_default
+language_alterable: true

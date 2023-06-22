@@ -1,0 +1,29 @@
+uuid: bb3ff4e6-1deb-4335-9906-8b0bf0b496a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.kolkata_events
+  module:
+    - system
+    - views
+  theme:
+    - test
+id: views_block__kolkata_events_block_1
+theme: test
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_block:kolkata_events-block_1'
+settings:
+  id: 'views_block:kolkata_events-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /dashboard

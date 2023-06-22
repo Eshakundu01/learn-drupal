@@ -1,0 +1,23 @@
+uuid: 129a8167-182c-46a9-9214-aa0dce8b2dde
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hours
+    - node.type.magazine
+id: node.magazine.field_hours
+field_name: field_hours
+entity_type: node
+bundle: magazine
+label: 'Opened for'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 2.0
+  max: 6.0
+  prefix: ''
+  suffix: h
+field_type: float

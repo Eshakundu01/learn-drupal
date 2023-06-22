@@ -1,0 +1,23 @@
+uuid: 81f549b2-e4a1-4a6a-a466-f545089aa34e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.magazine
+  module:
+    - options
+id: node.magazine.field_rating
+field_name: field_rating
+entity_type: node
+bundle: magazine
+label: Rating
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 5
+default_value_callback: ''
+settings: {  }
+field_type: list_integer
